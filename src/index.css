@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.spectrum-background {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(330deg, #c4eaea, transparent 30%),
+    linear-gradient(225deg, #efe2f0, #ffffff, #fefefe),
+    linear-gradient(150deg, #b25ea8, transparent 30%);
+}
+
+.contact-background {
+  background: linear-gradient(
+    225deg,
+    #c4eaea 0%,
+    #efe2f0 40%,
+    #e6c4e3 70%,
+    #fefefe 100%
+  );
+}
