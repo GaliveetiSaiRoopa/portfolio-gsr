@@ -62,7 +62,7 @@ const ZainCare = ({ open, handleClose }) => {
               href="https://www.zaincare.com/"
               className="text-blue-500 underline"
               target="_blank"
-              ref="noreferrer"
+            
 
             >
               https://www.zaincare.com/

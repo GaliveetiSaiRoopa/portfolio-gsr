@@ -60,7 +60,6 @@ const ZainCareAdmin = ({ open, handleClose }) => {
               href="https://admin.zaincare.com/login"
               className="text-blue-500 underline"
               target="_blank"
-              ref="noreferrer"
             >
               https://admin.zaincare.com/login
             </a>{" "}

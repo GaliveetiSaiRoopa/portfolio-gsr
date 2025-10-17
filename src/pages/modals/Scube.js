@@ -58,8 +58,6 @@ const Scube = ({ open, handleClose }) => {
               href="https://scube.me/"
               className="text-blue-500 underline"
               target="_blank"
-              ref="noreferrer"
-
             >
               https://scube.me/
             </a>

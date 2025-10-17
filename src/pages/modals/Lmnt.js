@@ -53,7 +53,6 @@ const Lmnt = ({ open, handleClose }) => {
               href="https://admin.lmnt.fit/login"
               className="text-blue-500 underline"
               target="_blank"
-              ref="noreferrer"
             >
               {" "}
               https://admin.lmnt.fit/login
