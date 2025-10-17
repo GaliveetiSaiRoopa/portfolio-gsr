@@ -98,7 +98,10 @@ const Home = () => {
         </button>
       </div>
 
-      <div className="lg:px-36 md:px-12 px-4 flex justify-between md:py-0 pt-24" ref={homeRef}>
+      <div
+        className="lg:px-36 md:px-12 px-4 flex justify-between md:py-0 pt-24"
+        ref={homeRef}
+      >
         <div className="flex flex-col gap-2 justify-center">
           <p className="font-semibold md:text-4xl text-2xl font-gillsans text-[#132238]">
             Hello, I'm <br />
@@ -108,16 +111,24 @@ const Home = () => {
             Software Developer
           </p>
           <p className="text-gray-900 font-times md:text-base text-sm">
-            Building seamless digital experiences from front to back - <br />{" "}
+            Building seamless digital experiences from front to back <br />{" "}
             crafting scalable, modern web solutions with precision and passion..
           </p>
           <div className="flex gap-3">
-            <a href="/Resume_SaiRoopa_09.pdf" download="SaiRoopa_Resume.pdf" className="flex gap-6 hover:bg-purple-600 border border-purple-600 rounded-full group">
+            <a
+              href="/Resume_SaiRoopa_09.pdf"
+              download="SaiRoopa_Resume.pdf"
+              className="flex gap-6 hover:bg-purple-600 border border-purple-600 rounded-full group"
+            >
               <button className="text-black group-hover:text-white py-2 px-5 font-semibold text-base">
                 Resume
               </button>
               <div className="w-10 h-10 flex items-center justify-center bg-purple-600 rounded-full z-[9] cursor-pointer">
-                <img src={downloadIcon} alt="download-icon" className="download" />
+                <img
+                  src={downloadIcon}
+                  alt="download-icon"
+                  className="download"
+                />
               </div>
             </a>
 
@@ -127,7 +138,11 @@ const Home = () => {
           </div>
         </div>
         <div className="md:py-28">
-          <img src={myImage} alt="image" className="lg:w-80 lg:h-96 md:w-60 md:h-80 rounded-lg md:flex hidden" />
+          <img
+            src={myImage}
+            alt="image"
+            className="lg:w-80 lg:h-96 md:w-60 md:h-80 rounded-lg md:flex hidden"
+          />
         </div>
       </div>
       <div ref={aboutRef} className="scroll-mt-24">
